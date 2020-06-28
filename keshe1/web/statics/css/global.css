@@ -1,0 +1,25 @@
+:root {
+    --color: black;
+    --height: 1rem;
+    --flex-direction: row;
+    --justify-content: center;
+    --align-items: center;
+    --margin: 1rem;
+    --padding: 1rem;
+}
+
+.background-color {
+    background-color: var(--color);
+}
+
+.height {
+    height: var(--height);
+    line-height: var(--height);
+}
+
+.flex {
+    display: flex;
+    flex-direction: var(--flex-direction);
+    justify-content: var(--justify-content);
+    align-items: var(--align-items);
+}
